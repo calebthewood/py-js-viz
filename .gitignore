@@ -1,0 +1,11 @@
+.env
+data
+config
+tweepy_apy.py
+nobel_winners/images
+.scrapy
+minibios.json
+nobel_winners_1.json
+nobel_winners.json
+nobel_prizes.sqlite
+

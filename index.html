@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ಠ_ಠ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="chart-holder" class="dev">
+    <div id="header">
+      <h2>My Little Data Viz</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, architecto. Accusamus eum officiis eligendi
+        numquam veniam provident voluptatum facere doloremque adipisci nulla sapiente, commodi voluptates dicta ad
+        libero, autem recusandae.
+        Ex consequuntur voluptas et rerum labore iure recusandae saepe. Omnis ipsam libero veniam a odio tempore eius
+        nam odit ipsum blanditiis explicabo quia debitis magni, quasi voluptatibus quo in molestiae.</p>
+    </div>
+    <div id="chart-components">
+      <div id="main">
+        <svg id="chart-a" class="chart" width="300" height="175">
+          <circle r="15" cx="100" cy="50"></circle>
+          <line x1="20" y1="20" x2="20" y2="130"></line>
+          <line x1="20" y1="130" x2="280" y2="130"></line>
+          <rect class="legend" x="240" y="5" width="55" height="30"></rect>
+          <polygon points="210,100, 230,100, 220,80"></polygon>
+          <text id="title" text-anchor="middle" x="150" y="20">A Dummy Chart</text>
+          <text text-anchor="end" x="20" y="24" transform="rotate(-90,20,20)" , dy="0.71em">y axis label</text>
+          <path d="M40 80
+                  A30 40 0 0 1 80 80
+                  A30 40 0 0 0 120 80
+                  A30 40 0 1 0 160 80
+                  A30 40 0 1 1 200 80
+                  "></path>
+        </svg>
+        <svg id="chart-b" class="chart" width="300" height="175">
+          <circle r="15" cx="100" cy="50"></circle>
+          <line x1="20" y1="20" x2="20" y2="130"></line>
+          <line x1="20" y1="130" x2="280" y2="130"></line>
+          <rect class="legend" x="240" y="5" width="55" height="30"></rect>
+          <polygon points="210,100, 230,100, 220,80"></polygon>
+          <text id="title" text-anchor="middle" x="150" y="20">A Dummy Chart</text>
+          <text text-anchor="end" x="20" y="24" transform="rotate(-90,20,20)" , dy="0.71em">y axis label</text>
+          <path d="M40 40
+                  A30 40 0 0 1 80 80
+                  A50 50 0 0 1 160 80
+                  A30 30 0 0 1 190 80
+                  "></path>
+        </svg>
+        <svg id="chart-c" class="chart" width="300" height="175">
+          <circle r="15" cx="100" cy="50"></circle>
+          <line x1="20" y1="20" x2="20" y2="130"></line>
+          <line x1="20" y1="130" x2="280" y2="130"></line>
+          <rect class="legend" x="240" y="5" width="55" height="30"></rect>
+          <polygon points="210,100, 230,100, 220,80"></polygon>
+          <text id="title" text-anchor="middle" x="150" y="20">A Dummy Chart</text>
+          <text text-anchor="end" x="20" y="24" transform="rotate(-90,20,20)" , dy="0.71em">y axis label</text>
+          <path d="M20 130L60 70L110 100L160 45"></path>
+        </svg>
+        <svg id="chart-d" class="chart" width="300" height="150">
+          <rect class="tumble" width="20" height="40" transform="translate(60, 55)" />
+          <rect class="tumble" width="20" height="40" transform="translate(120, 55)" />
+          <rect class="tumble" width="20" height="40" transform="translate(180, 55), rotate(45)" />
+          <rect class="tumble" width="20" height="40" transform="translate(240, 55), rotate(45), scale(0.5)" />
+        </svg>
+        <svg id="chart-e" class="chart" width="300" height="150">
+         <g id="shapes" transform="translate(150,75)">
+          <circle cx="50" cy="0" r="25" fill="red" />
+          <rect x="30" y="10" width="40" height="20" fill="blue" />
+          <path d="M-20 -10L50 -10L10 60Z" fill="green" />
+          <circle r="10" fill="yellow">
+         </g>
+        </svg>
+        <svg id="chart-f" class="chart" width="300" height="150">
+          <g id="shapes" transform="translate(150,75), rotate(75)">
+           <circle cx="50" cy="0" r="25" fill="red" />
+           <rect x="30" y="10" width="40" height="20" fill="blue" />
+           <path d="M-20 -10L50 -10L10 60Z" fill="green" />
+           <circle r="10" fill="yellow">
+          </g>
+         </svg>
+         <svg id="chart-g" class="chart" width="300" height="150">
+          <g id="circles" transform="translate(150,75)">
+           <circle cx="0" cy="-20" r="30" fill="red" />
+           <circle cx="17.3" cy="10" r="30" fill="green" />
+           <circle cx="-17.3" cy="10" r="30" fill="blue" />
+          </g>
+         </svg>
+         <svg id="chart-h" class="chart"></svg>
+      </div>
+      <div id="sidebar">
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
+    integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
