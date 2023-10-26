@@ -5,17 +5,18 @@ Git Repo for experimenting with web scraping, data munging, and data vizualizati
 ## Languages & Tools Used
 
 - [x] Python
-    - [x] Numpy
+    - [x] Anaconda
+    - [x] NumPy
     - [x] Pandas
-    - [x] CSV
-    - [x] JSON
+    - [x] CSV, JSON, FS
     - [x] Tweepy
     - [x] Beautiful Soup
     - [x] Scrapy
     - [x] SQLAlchemy
+    - [ ] Flask
 
 - [x] JavaScript
-    - [] D3
+    - [ ] D3
 
 - [x] MongoDB
 - [x] Postgres
